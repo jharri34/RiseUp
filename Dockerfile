@@ -1,11 +1,11 @@
 FROM node:12-slim
 
-WORKDIR /starter
+WORKDIR /RiseUp
 ENV NODE_ENV development
 
-COPY package.json /starter/package.json
+COPY package.json /RiseUp/package.json
 
-RUN npm install --production
+RUN npm install
 
 COPY .env.example /starter/.env.example
 COPY . /starter

@@ -1,7 +1,6 @@
 const { promisify } = require('util');
 const crypto = require('crypto');
 const nodemailer = require('nodemailer');
-const passport = require('passport');
 const _ = require('lodash');
 const validator = require('validator');
 const mailChecker = require('mailchecker');
